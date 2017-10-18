@@ -1,0 +1,76 @@
+[ 2017-09-11T13:33:11+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:03:53+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.016600s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-11 14:03:53' WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+
+[ 2017-09-11T14:09:37+08:00 ] ::1 /dear/home/admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-09-11T14:09:53+08:00 ] ::1 /dear/home/admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-09-11T14:09:54+08:00 ] ::1 /dear/home/admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-09-11T14:09:55+08:00 ] ::1 /dear/home/admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-09-11T14:09:55+08:00 ] ::1 /dear/home/admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-09-11T14:29:58+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T14:30:01+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T14:31:21+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+
+[ 2017-09-11T14:31:33+08:00 ] ::1 /dear/admin/Add/add
+ERR: 无法加载控制器:Add
+
+[ 2017-09-11T14:34:29+08:00 ] ::1 /dear/admin/Add/add
+ERR: 无法加载控制器:Add
+
+[ 2017-09-11T14:58:50+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.015600s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-11 14:58:50' WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+
+[ 2017-09-11T15:02:46+08:00 ] ::1 /dear/home/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-11T15:02:57+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.015600s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-11 15:02:57' WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+

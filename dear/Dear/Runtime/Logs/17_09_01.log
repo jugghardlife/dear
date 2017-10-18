@@ -1,0 +1,511 @@
+[ 2017-09-01T09:00:51+08:00 ] ::1 /dear/home/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-01T09:01:05+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.015600s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-01 09:01:05' WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T09:01:39+08:00 ] ::1 /dear/admin/Add5/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.015600s ]
+SQL: INSERT INTO `dear_memory` (`title`,`varieties`,`tel`,`region`,`content`,`state`,`uid`,`time`) VALUES ('qweqwe','qewqwe','qweqwe','北京市北京市市辖区','<p>qweqweqwe</p>',0,'1','2017-09-01 09:01:39') [ RunTime:0.000000s ]
+
+[ 2017-09-01T09:01:58+08:00 ] ::1 /dear/admin/Add5/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.015600s ]
+SQL: INSERT INTO `dear_memory` (`title`,`varieties`,`tel`,`region`,`content`,`state`,`uid`,`time`) VALUES ('qwewqe','qwewqe','qweqwe','北京市北京市市辖区','<p>wqewqe</p>',0,'1','2017-09-01 09:01:58') [ RunTime:0.000000s ]
+
+[ 2017-09-01T09:12:58+08:00 ] ::1 /dear/admin/Add5/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.015600s ]
+SQL: INSERT INTO `dear_memory` (`title`,`varieties`,`tel`,`region`,`content`,`state`,`uid`,`time`) VALUES ('sdfg','xcvbnm','hjkl','北京市北京市市辖区','<p>dfgbuhyhjnhu</p>',0,'1','2017-09-01 09:12:58') [ RunTime:0.000000s ]
+
+[ 2017-09-01T09:15:16+08:00 ] ::1 /dear/admin/Add5/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: find D:\phpstudy\WWW\dear\Dear\Admin\Controller\Add5Controller.class.php 第 30 行.
+
+[ 2017-09-01T09:22:40+08:00 ] ::1 /dear/admin/Add5/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.005500s ]
+NOTIC: [8] Undefined variable: find D:\phpstudy\WWW\dear\Dear\Admin\Controller\Add5Controller.class.php 第 30 行.
+
+[ 2017-09-01T09:26:18+08:00 ] ::1 /dear/admin/Add5/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.004000s ]
+SQL: DELETE FROM `dear_memory` WHERE ( `id` = 6 ) [ RunTime:0.007000s ]
+
+[ 2017-09-01T09:26:21+08:00 ] ::1 /dear/admin/Add5/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.003000s ]
+SQL: DELETE FROM `dear_memory` WHERE ( `id` = 5 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T09:26:29+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: DESCRIBE dear_find [ RunTime:0.001500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 26 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T09:26:32+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.004500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 27 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T09:26:35+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_find [ RunTime:0.001500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 28 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T09:26:37+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_find [ RunTime:0.002500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 29 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T09:26:40+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.001500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 34 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T09:26:43+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.003500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 36 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T09:26:46+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_find [ RunTime:0.003000s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 37 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T09:26:49+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_find [ RunTime:0.002500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 38 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:20+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_find [ RunTime:0.002500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 35 ) [ RunTime:0.001500s ]
+
+[ 2017-09-01T10:13:22+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_find [ RunTime:0.002500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 40 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:25+08:00 ] ::1 /dear/admin/Add1/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.001500s ]
+SQL: DELETE FROM `dear_find` WHERE ( `id` = 39 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:28+08:00 ] ::1 /dear/admin/Add2/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.001500s ]
+SQL: DELETE FROM `dear_encounter` WHERE ( `id` = 2 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T10:13:30+08:00 ] ::1 /dear/admin/Add2/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.004000s ]
+SQL: DELETE FROM `dear_encounter` WHERE ( `id` = 3 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:33+08:00 ] ::1 /dear/admin/Add2/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.002500s ]
+SQL: DELETE FROM `dear_encounter` WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T10:13:37+08:00 ] ::1 /dear/admin/Add3/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_adopt [ RunTime:0.002000s ]
+SQL: DELETE FROM `dear_adopt` WHERE ( `id` = 1 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:39+08:00 ] ::1 /dear/admin/Add3/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_adopt [ RunTime:0.004000s ]
+SQL: DELETE FROM `dear_adopt` WHERE ( `id` = 12 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T10:13:41+08:00 ] ::1 /dear/admin/Add3/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_adopt [ RunTime:0.002000s ]
+SQL: DELETE FROM `dear_adopt` WHERE ( `id` = 11 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:44+08:00 ] ::1 /dear/admin/Add3/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: DESCRIBE dear_adopt [ RunTime:0.001500s ]
+SQL: DELETE FROM `dear_adopt` WHERE ( `id` = 9 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T10:13:47+08:00 ] ::1 /dear/admin/Add3/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_adopt [ RunTime:0.003000s ]
+SQL: DELETE FROM `dear_adopt` WHERE ( `id` = 10 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:49+08:00 ] ::1 /dear/admin/Add3/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_adopt [ RunTime:0.002500s ]
+SQL: DELETE FROM `dear_adopt` WHERE ( `id` = 13 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:52+08:00 ] ::1 /dear/admin/Add3/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_adopt [ RunTime:0.001500s ]
+SQL: DELETE FROM `dear_adopt` WHERE ( `id` = 14 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:54+08:00 ] ::1 /dear/admin/Add3/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_adopt [ RunTime:0.001500s ]
+SQL: DELETE FROM `dear_adopt` WHERE ( `id` = 15 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:57+08:00 ] ::1 /dear/admin/Add4/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_experience [ RunTime:0.002000s ]
+SQL: DELETE FROM `dear_experience` WHERE ( `id` = 1 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:13:59+08:00 ] ::1 /dear/admin/Add4/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_experience [ RunTime:0.002000s ]
+SQL: DELETE FROM `dear_experience` WHERE ( `id` = 3 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:14:07+08:00 ] ::1 /dear/admin/Add5/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.002000s ]
+SQL: DELETE FROM `dear_memory` WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T10:14:11+08:00 ] ::1 /dear/admin/Add5/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.001500s ]
+SQL: DELETE FROM `dear_memory` WHERE ( `id` = 2 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T10:14:13+08:00 ] ::1 /dear/admin/Add5/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.004000s ]
+SQL: DELETE FROM `dear_memory` WHERE ( `id` = 4 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T10:14:17+08:00 ] ::1 /dear/admin/Add4/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_experience [ RunTime:0.002500s ]
+SQL: DELETE FROM `dear_experience` WHERE ( `id` = 2 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T10:14:35+08:00 ] ::1 /dear/admin/Add1/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_find [ RunTime:0.004500s ]
+SQL: INSERT INTO `dear_find` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('qwe qwe ','qwe qwe ','qwe qwe qwe','河北省','秦皇岛市','<p>qwe qwe qwe qwe qwe&nbsp;</p>',0,'1','2017-09-01 10:14:35') [ RunTime:0.001000s ]
+
+[ 2017-09-01T10:34:09+08:00 ] ::1 /dear/admin/Add1/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_find [ RunTime:0.002500s ]
+SQL: INSERT INTO `dear_find` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('qwe qwe ','qwe qwe ','qwe qwe qwe','','石家庄市','',0,'1','2017-09-01 10:34:09') [ RunTime:0.004500s ]
+
+[ 2017-09-01T13:17:50+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.005000s ]
+SQL: UPDATE `dear_find` SET `title`='123',`varieties`='123',`tel`='123',`province`='吉林省',`city`='辽源市',`content`='<p>请问</p>',`state`=0,`uid`='1',`time`='2017-09-01 13:17:50' WHERE ( `id` = 0 ) [ RunTime:0.008000s ]
+
+[ 2017-09-01T13:19:19+08:00 ] ::1 /dear/admin/Add2/add22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.006000s ]
+SQL: INSERT INTO `dear_encounter` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('123','123','123','河北省','秦皇岛市','<p>123<img src=\"/ueditor/php/upload/image/20170901/1504243156532991.jpg\" title=\"1504243156532991.jpg\" alt=\"01_mid.jpg\"/></p>',0,'1','2017-09-01 13:19:19') [ RunTime:0.003000s ]
+
+[ 2017-09-01T13:21:09+08:00 ] ::1 /dear/admin/Add5/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.006000s ]
+SQL: INSERT INTO `dear_memory` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('请问','请问','请问','辽宁省','抚顺市','<p>请问请问请问王企鹅请问请问请问请问请问<img src=\"/ueditor/php/upload/image/20170901/1504243261666734.jpg\" title=\"1504243261666734.jpg\" alt=\"9.jpg\"/>请问而且请问请问请问<img src=\"/ueditor/php/upload/image/20170901/1504243266600723.jpg\" title=\"1504243266600723.jpg\" alt=\"03_mid.jpg\"/></p>',0,'1','2017-09-01 13:21:09') [ RunTime:0.000000s ]
+
+[ 2017-09-01T13:22:40+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.005000s ]
+SQL: UPDATE `dear_find` SET `title`='qwe qwe ',`varieties`='qwe qwe ',`tel`='qwe qwe qwe',`province`='北京市',`city`='北京市市辖区',`content`='<p>而为全额</p>',`state`=0,`uid`='1',`time`='2017-09-01 13:22:40' WHERE ( `id` = 0 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T13:24:04+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.005000s ]
+SQL: UPDATE `dear_find` SET `title`='qwe qwe ',`varieties`='qwe qwe ',`tel`='qwe qwe qwe',`province`='北京市',`city`='北京市市辖区',`content`='<p>请问请问</p>',`state`=0,`uid`='1',`time`='2017-09-01 13:24:04' WHERE ( `id` = 0 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:24:25+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.005000s ]
+SQL: UPDATE `dear_find` SET `title`='qwe qwe ',`varieties`='qwe qwe ',`tel`='qwe qwe qwe',`province`='北京市',`city`='北京市市辖区',`content`='<p>请问请问请问而且请问而且请问而且请问恶趣味恶趣味恶趣味恶趣味恶趣味恶趣味</p>',`state`=0,`uid`='1',`time`='2017-09-01 13:24:25' WHERE ( `id` = 0 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:27:19+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.007000s ]
+
+[ 2017-09-01T13:28:15+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.006000s ]
+
+[ 2017-09-01T13:36:38+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.005000s ]
+SQL: UPDATE `dear_find` SET `title`='qwe qwe ',`varieties`='qwe qwe ',`tel`='qwe qwe qwe',`province`='北京市',`city`='北京市市辖区',`content`='<p>请问请问请问请问请问请问</p>',`state`=0,`uid`='1',`time`='2017-09-01 13:36:38' WHERE ( `id` = 42 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:37:36+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.005000s ]
+SQL: UPDATE `dear_find` SET `title`='123',`varieties`='123',`tel`='123',`province`='山西省',`city`='太原市',`content`='<p>123<img src=\"/ueditor/php/upload/image/20170901/1504244253108715.png\" title=\"1504244253108715.png\" alt=\"559.png\"/></p>',`state`=0,`uid`='1',`time`='2017-09-01 13:37:36' WHERE ( `id` = 42 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T13:40:43+08:00 ] ::1 /dear/admin/Add2/add22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.006000s ]
+SQL: INSERT INTO `dear_encounter` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('123456','123456','123456','河北省','秦皇岛市','<p>123456789<img src=\"/ueditor/php/upload/image/20170901/1504244439124129.jpg\" title=\"1504244439124129.jpg\" alt=\"11.jpg\"/></p>',0,'1','2017-09-01 13:40:43') [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:43:14+08:00 ] ::1 /dear/admin/Add2/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.007000s ]
+SQL: UPDATE `dear_encounter` SET `title`='123456',`varieties`='123456',`tel`='123456',`province`='河北省',`city`='秦皇岛市',`content`='<p>123456789<img src=\"/ueditor/php/upload/image/20170901/1504244439124129.jpg\" title=\"1504244439124129.jpg\" alt=\"11.jpg\"/>qweqwe qwe&nbsp;</p>',`state`=0,`uid`='1',`time`='2017-09-01 13:43:14' WHERE ( `id` = 6 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:45:50+08:00 ] ::1 /dear/admin/Add3/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE dear_adopt [ RunTime:0.005000s ]
+SQL: INSERT INTO `dear_adopt` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('qwe','qwe','qwe','河北省','秦皇岛市','<p>qweqweqweeqeqweqwe</p>',0,'1','2017-09-01 13:45:50') [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:48:25+08:00 ] ::1 /dear/admin/Add2/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.006000s ]
+SQL: UPDATE `dear_encounter` SET `title`='qwe',`varieties`='qwe',`tel`='qwe',`province`='河北省',`city`='秦皇岛市',`content`='<p>qweqweqweeqeqweqwe r rthrhrtrewt y<img src=\"/ueditor/php/upload/image/20170901/1504244902298210.jpg\" title=\"1504244902298210.jpg\" alt=\"03.jpg\"/></p>',`state`=0,`uid`='1',`time`='2017-09-01 13:48:25' WHERE ( `id` = 16 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:48:45+08:00 ] ::1 /dear/admin/Add2/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.008000s ]
+SQL: UPDATE `dear_encounter` SET `title`='qwe1231323',`varieties`='qwe1231231',`tel`='qwe313223',`province`='河北省',`city`='秦皇岛市',`content`='<p>qweqweqweeqeqweqwe</p>',`state`=0,`uid`='1',`time`='2017-09-01 13:48:45' WHERE ( `id` = 16 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:49:04+08:00 ] ::1 /dear/admin/Add2/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.005000s ]
+SQL: UPDATE `dear_encounter` SET `title`='123345',`varieties`='123456',`tel`='123456',`province`='河北省',`city`='秦皇岛市',`content`='<p>123<img src=\"/ueditor/php/upload/image/20170901/1504243156532991.jpg\" title=\"1504243156532991.jpg\" alt=\"01_mid.jpg\"/></p>',`state`=0,`uid`='1',`time`='2017-09-01 13:49:04' WHERE ( `id` = 5 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:52:37+08:00 ] ::1 /dear/admin/Add5/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_memory [ RunTime:0.004000s ]
+SQL: INSERT INTO `dear_memory` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('qwe qwe ','qwe qwe qw','e qwe qwe ','北京市','北京市市辖区','<p>qwe qwe qwe qwe&nbsp;</p>',0,'1','2017-09-01 13:52:37') [ RunTime:0.001000s ]
+
+[ 2017-09-01T13:52:51+08:00 ] ::1 /dear/admin/Add4/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_experience [ RunTime:0.005000s ]
+SQL: INSERT INTO `dear_experience` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('qwe qwe',' qw eqwe ','qwe qwe qwe ','北京市','北京市市辖区','<p>q we qwe qwe&nbsp;</p>',0,'1','2017-09-01 13:52:51') [ RunTime:0.000000s ]
+
+[ 2017-09-01T13:52:59+08:00 ] ::1 /dear/admin/Add4/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_experience [ RunTime:0.006000s ]
+SQL: INSERT INTO `dear_experience` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('qwe qwe ','qw eqw eqw e','qwe qwe ','北京市','北京市市辖区','<p>qw eqw eqw eqwe&nbsp;</p>',0,'1','2017-09-01 13:52:59') [ RunTime:0.001000s ]
+
+[ 2017-09-01T14:05:18+08:00 ] ::1 /dear/admin/Add1/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.006000s ]
+SQL: INSERT INTO `dear_find` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('123123123','123123123','123123123','河北省','秦皇岛市','<p>123456789000<img src=\"/ueditor/php/upload/image/20170901/1504245915134241.jpg\" title=\"1504245915134241.jpg\" alt=\"10.jpg\"/></p>',0,'1','2017-09-01 14:05:18') [ RunTime:0.001000s ]
+
+[ 2017-09-01T14:09:23+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.005000s ]
+SQL: UPDATE `dear_find` SET `title`='123',`varieties`='123',`tel`='123',`province`='山西省',`city`='太原市',`content`='<p>123<img src=\"/ueditor/php/upload/image/20170901/1504244253108715.png\" title=\"1504244253108715.png\" alt=\"559.png\"/></p>',`state`=0,`uid`='1',`time`='2017-09-01 14:09:23' WHERE ( `id` = 42 ) [ RunTime:0.000000s ]
+
+[ 2017-09-01T14:24:36+08:00 ] ::1 /dear/admin/Add2/add22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.020500s ]
+SQL: INSERT INTO `dear_encounter` (`title`,`varieties`,`tel`,`province`,`city`,`content`,`state`,`uid`,`time`) VALUES ('','','','北京市','北京市市辖区','',0,'1','2017-09-01 14:24:36') [ RunTime:0.002000s ]
+
+[ 2017-09-01T14:24:44+08:00 ] ::1 /dear/admin/Add2/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_encounter [ RunTime:0.018000s ]
+SQL: DELETE FROM `dear_encounter` WHERE ( `id` = 7 ) [ RunTime:0.002500s ]
+
+[ 2017-09-01T15:25:30+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-01T15:25:41+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.016000s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-01 15:25:40' WHERE ( `id` = 1 ) [ RunTime:0.004000s ]
+
+[ 2017-09-01T15:27:56+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.018000s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-01 15:27:56' WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T15:33:31+08:00 ] ::1 /dear/home/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-01T15:33:50+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.013000s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-01 15:33:50' WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+
+[ 2017-09-01T15:52:09+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-01T16:03:45+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-09-01T16:04:05+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.024000s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-01 16:04:04' WHERE ( `id` = 1 ) [ RunTime:0.002500s ]
+
+[ 2017-09-01T16:06:18+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.017500s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-01 16:06:18' WHERE ( `id` = 1 ) [ RunTime:0.000500s ]
+
+[ 2017-09-01T17:05:27+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.016000s ]
+SQL: UPDATE `dear_find` SET `title`='123',`varieties`='123',`tel`='123',`province`='山西省',`city`='太原市',`content`='<p>123<img src=\"/ueditor/php/upload/image/20170901/1504244253108715.png\" title=\"1504244253108715.png\" alt=\"559.png\"/><img src=\"/ueditor/php/upload/image/20170901/1504256718284483.png\" title=\"1504256718284483.png\" alt=\"11.png\"/><img src=\"/ueditor/php/upload/image/20170901/1504256721308839.jpg\" title=\"1504256721308839.jpg\" alt=\"3.jpg\"/><img src=\"/ueditor/php/upload/image/20170901/1504256724202249.jpg\" title=\"1504256724202249.jpg\" alt=\"03_small.jpg\"/></p>',`state`=0,`uid`='1',`time`='2017-09-01 17:05:27' WHERE ( `id` = 42 ) [ RunTime:0.007000s ]
+
+[ 2017-09-01T17:06:45+08:00 ] ::1 /dear/admin/Add1/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_find [ RunTime:0.016000s ]
+SQL: UPDATE `dear_find` SET `title`='123',`varieties`='123',`tel`='123',`province`='山西省',`city`='太原市',`content`='<p>123<img src=\"/ueditor/php/upload/image/20170901/1504244253108715.png\" title=\"1504244253108715.png\" alt=\"559.png\"/></p><p><br/></p><p><br/><img src=\"/ueditor/php/upload/image/20170901/1504256718284483.png\" title=\"1504256718284483.png\" alt=\"11.png\"/><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><img src=\"/ueditor/php/upload/image/20170901/1504256796537036.jpg\" title=\"1504256796537036.jpg\" alt=\"10.jpg\"/></p><p><br/></p><p><br/></p><p><img src=\"/ueditor/php/upload/image/20170901/1504256801951432.jpg\" title=\"1504256801951432.jpg\" alt=\"03_mid.jpg\"/></p>',`state`=0,`uid`='1',`time`='2017-09-01 17:06:45' WHERE ( `id` = 42 ) [ RunTime:0.001000s ]
+

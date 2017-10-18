@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="stylesheet" href="__PUBLIC__/js/layui/css/layui.css">
+<link rel="stylesheet" href="__PUBLIC__/css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/card.css">
+<style>
+	.layui-table tr td a {
+		padding:0 4px;
+	}
+	.show {
+		display: block;
+	}
+</style>
+</head>
+<body style="position: relative;">
+	<div style="position: absolute;width: 100%;height: 100%;background-color:rgba(0,0,0,0.3);z-index: 10;display: none;" class="region">
+		<div style="width: 780px;height: 600px;margin: 20vh auto;background-color: #fff;">
+			<div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief" style="color: #666;">
+			  <ul class="layui-tab-title">
+			    <li>A</li>
+			    <li>F</li>
+			    <li>G</li>
+			    <li>H</li>
+			    <li>J</li>
+			    <li>L</li>
+			    <li>N</li>
+			    <li>Q</li>
+			    <li>S</li>
+			    <li>X</li>
+			    <li>Y</li>
+			    <li>Z</li>
+			  </ul>
+			  <div class="layui-tab-content">
+			    <div class="layui-tab-item layui-show">
+			    	<div style="display: flex;justify-content:space-between;">
+			    		<p style="font-size: 60%;line-height: 26px;margin-bottom: 0;font-weight: 600; ">请选择地区</p>
+			    		<button class="layui-btn layui-btn-primary back layui-btn-mini" style="font-size: 60%;margin-right: 20px;">返回</button>
+			    	</div>
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">安徽</td>
+					      <td style="font-size: 80%">
+					      	<a href="" class="city">合肥</a>
+					      	<a href="" class="city">芜湖</a>
+					      	<a href="" class="city">蚌埠</a>
+					      	<a href="" class="city">阜阳</a>
+					      	<a href="" class="city">淮南</a>
+					      	<a href="" class="city">安庆</a>
+					      	<a href="" class="city">宿州</a>
+					      	<a href="" class="city">六安</a>
+					      	<a href="" class="city">淮北</a>
+					      	<a href="" class="city">滁州</a>
+					      	<a href="" class="city">马鞍山</a>
+					      	<a href="" class="city">铜陵</a>
+					      	<a href="" class="city">宣城</a>
+					      	<a href="" class="city">亳州</a>
+					      	<a href="" class="city">黄山</a>
+					      	<a href="" class="city">池州</a>
+					      	<a href="" class="city">巢湖</a>
+					      	<a href="" class="city">和县</a>
+					      	<a href="" class="city">霍邱</a>
+					      	<a href="" class="city">桐城</a>
+					      	<a href="" class="city">宁国</a>
+					      	<a href="" class="city">天长</a>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			    <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">福建</td>
+					      <td style="font-size: 80%;">
+					      	<a href="" class="city">福州</a>
+					      	<a href="" class="city">厦门</a>
+					      	<a href="" class="city">泉州</a>
+					      	<a href="" class="city">莆田</a>
+					      	<a href="" class="city">漳州</a>
+					      	<a href="" class="city">宁德</a>
+					      	<a href="" class="city">三明</a>
+					      	<a href="" class="city">南平</a>
+					      	<a href="" class="city">龙岩</a>
+					      	<a href="" class="city">武夷山</a>
+					      	<a href="" class="city">石狮</a>
+					      	<a href="" class="city">晋江</a>
+					      	<a href="" class="city">南安</a>
+					      	<a href="" class="city">龙海</a>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			    <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">广东</td>
+					      <td style="font-size: 80%;">
+					      	<a href="">深圳</a>
+					      	<a href="">广州</a>
+					      	<a href="">东莞</a>
+					      	<a href="">佛山</a>
+					      	<a href="">中山</a>
+					      	<a href="">珠海</a>
+					      	<a href="">惠州</a>
+					      	<a href="">江门</a>
+					      	<a href="">汕头</a>
+					      	<a href="">湛江</a>
+					      	<a href="">肇庆</a>
+					      	<a href="">茂名</a>
+					      	<a href="">揭阳</a>
+					      	<a href="">梅州</a>
+					      	<a href="">清远</a>
+					      	<a href="">阳江</a>
+					      	<a href="">韶关</a>
+					      	<a href="">河源</a>
+					      	<a href="">云浮</a>
+					      	<a href="">汕尾</a>
+					      	<a href="">潮州</a>
+					      	<a href="">台山</a>
+					      	<a href="">阳春</a>
+					      	<a href="">顺德</a>
+					      	<a href="">惠东</a>
+					      	<a href="">博罗</a>
+					      	<a href="">海丰</a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">广西</td>
+					      <td style="font-size: 80%">
+					      	<a href="">南宁</a>
+					      	<a href="">柳州</a>
+					      	<a href="">桂林</a>
+					      	<a href="">玉林</a>
+					      	<a href="">梧州</a>
+					      	<a href="">北海</a>
+					      	<a href="">贵港</a>
+					      	<a href="">钦州</a>
+					      	<a href="">百色</a>
+					      	<a href="">河池</a>
+					      	<a href="">来宾</a>
+					      	<a href="">贺州</a>
+					      	<a href="">防城港</a>
+					      	<a href="">崇左</a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">贵州</td>
+					      <td style="font-size: 80%">
+					      	<a href="">贵阳</a>
+					      	<a href="">遵义</a>
+					      	<a href="">黔东南</a>
+					      	<a href="">黔南</a>
+					      	<a href="">六盘水</a>
+					      	<a href="">毕节</a>
+					      	<a href="">铜仁</a>
+					      	<a href="">安顺</a>
+					      	<a href="">黔西南</a>
+					      	<a href="">仁怀</a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">甘肃</td>
+					      <td style="font-size: 80%">
+					      	<a href="">兰州</a>
+					      	<a href="">天水</a>
+					      	<a href="">白银</a>
+					      	<a href="">庆阳</a>
+					      	<a href="">平凉</a>
+					      	<a href="">酒泉</a>
+					      	<a href="">张掖</a>
+					      	<a href="">武威</a>	
+					      	<a href="">定西</a>
+					      	<a href="">金昌</a>
+					      	<a href="">陇南</a>
+					      	<a href="">临夏</a>
+					      	<a href="">嘉峪关</a>
+					      	<a href="">甘南</a>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			    <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">海南</td>
+					      <td style="font-size: 80%">
+					      	<a href="">海口</a>
+					      	<a href="">三亚</a>
+					      	<a href="">五指山</a>
+					      	<a href="">三沙</a>
+					      	<a href="">琼海</a>
+					      	<a href="">文昌</a>
+					      	<a href="">万宁</a>
+					      	<a href="">屯昌</a>
+					      	<a href="">琼中</a>
+					      	<a href="">陵水</a>
+					      	<a href="">东方</a>
+					      	<a href="">定安</a>
+					      	<a href="">澄迈</a>
+					      	<a href="">保亭</a>
+					      	<a href="">白沙</a>
+					      	<a href="">儋州</a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">河南</td>
+					      <td style="font-size: 80%">
+					      	<a href="">郑州</a>
+					      	<a href="">洛阳</a>
+					      	<a href="">新乡</a>
+					      	<a href="">南阳</a>
+					      	<a href="">许昌</a>
+					      	<a href="">平顶山</a>
+					      	<a href="">安阳</a>
+					      	<a href="">焦作</a>
+					      	<a href="">商丘</a>
+					      	<a href="">开封</a>
+					      	<a href="">濮阳</a>
+					      	<a href="">周口</a>
+					      	<a href="">信阳</a>
+					      	<a href="">驻马店</a>
+					      	<a href="">漯河</a>
+					      	<a href="">三门峡</a>
+					      	<a href="">鹤壁</a>
+					      	<a href="">济源</a>
+					      	<a href="">明港</a>
+					      	<a href="">鄢陵</a>
+					      	<a href="">禹州</a>
+					      	<a href="">长葛</a>
+					      	<a href="">灵宝</a>
+					      	<a href="">杞县</a>
+					      	<a href="">汝州</a>
+					      	<a href="">项城</a>
+					      	<a href="">偃师</a>
+					      	<a href="">长垣</a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">黑龙江</td>
+					      <td style="font-size: 80%">
+					      	<a href="">哈尔滨</a>
+					      	<a href="">大庆</a>
+					      	<a href="">齐齐哈尔</a>
+					      	<a href="">牡丹江</a>
+					      	<a href="">绥化</a>
+					      	<a href="">佳木斯</a>
+					      	<a href="">鸡西</a>
+					      	<a href="">双鸭山</a>
+					      	<a href="">鹤岗</a>
+					      	<a href="">黑河</a>
+					      	<a href="">伊春</a>
+					      	<a href="">七台河</a>
+					      	<a href="">大兴安岭</a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">湖北</td>
+					      <td style="font-size: 80%">
+					      	<a href="">武汉</a>
+					      	<a href="">宜昌</a>
+					      	<a href="">襄阳</a>
+					      	<a href="">荆州</a>
+					      	<a href="">十堰</a>
+					      	<a href="">黄石</a>
+					      	<a href="">孝感</a>
+					      	<a href="">黄冈</a>
+					      	<a href="">恩施</a>
+					      	<a href="">荆门</a>
+					      	<a href="">咸宁</a>
+					      	<a href="">鄂州</a>
+					      	<a href="">随州</a>
+					      	<a href="">潜江</a>
+					      	<a href="">天门</a>
+					      	<a href="">仙桃</a>
+					      	<a href="">神农架</a>
+					      	<a href="">宜都</a>
+					      	<a href="">汉川</a>
+					      	<a href="">枣阳</a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">湖南</td>
+					      <td style="font-size: 80%">
+					      	<a href="">长沙</a>
+					      	<a href="">株洲</a>
+					      	<a href="">益阳</a>
+					      	<a href="">常德</a>
+					      	<a href="">衡阳</a>
+					      	<a href="">湘潭</a>
+					      	<a href="">岳阳</a>
+					      	<a href="">郴州</a>
+					      	<a href="">邵阳</a>
+					      	<a href="">怀化</a>
+					      	<a href="">永州</a>
+					      	<a href="">娄底</a>
+					      	<a href="">湘西</a>
+					      	<a href="">张家界</a>
+					      	<a href="">醴陵</a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">河北</td>
+					      <td style="font-size: 80%">
+					      	<a href="">石家庄</a>
+					      	<a href="">保定</a>
+					      	<a href="">唐山</a>
+					      	<a href="">廊坊</a>
+					      	<a href="">邯郸</a>
+					      	<a href="">秦皇岛</a>
+					      	<a href="">沧州</a>
+					      	<a href="">邢台</a>
+					      	<a href="">衡水</a>
+					      	<a href="">张家口</a>
+					      	<a href="">承德</a>
+					      	<a href="">定州</a>
+					      	<a href="">馆陶</a>
+					      	<a href="">张北</a>
+					      	<a href="">赵县</a>
+					      	<a href="">正定</a>
+					      	<a href="">迁安市</a>
+					      	<a href="">任丘</a>
+					      	<a href="">三河</a>
+					      	<a href="">武安</a>
+					      	<a href="">雄安新区</a>
+					      	<a href="">燕郊</a>
+					      	<a href="">涿州</a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">黑龙江</td>
+					      <td style="font-size: 80%">
+					      	<a href="">哈尔滨</a>
+					      	<a href="">大庆</a>
+					      	<a href="">齐齐哈尔</a>
+					      	<a href="">牡丹江</a>
+					      	<a href="">绥化</a>
+					      	<a href="">佳木斯</a>
+					      	<a href="">鸡西</a>
+					      	<a href="">双鸭山</a>
+					      	<a href="">鹤岗</a>
+					      	<a href="">黑河</a>
+					      	<a href="">伊春</a>
+					      	<a href="">七台河</a>
+					      	<a href="">大兴安岭</a>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			    <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">江苏</td>
+					      <td style="font-size: 80%">
+					      	<a href="">苏州</a>
+					      	<a href="">南京</a>
+					      	<a href="">无锡</a>
+					      	<a href="">常州</a>
+					      	<a href="">徐州</a>
+					      	<a href="">南通</a>
+					      	<a href="">扬州</a>
+					      	<a href="">盐城</a>
+					      	<a href="">淮安</a>
+					      	<a href="">连云港</a>
+					      	<a href="">泰州</a>
+					      	<a href="">宿迁</a>
+					      	<a href="">镇江</a>
+					      	<a href="">沭阳</a>
+					      	<a href="">大丰</a>
+					      	<a href="">如皋</a>
+					      	<a href=""></a>
+					      	<a href=""></a>
+					      	<a href=""></a>
+					      	<a href=""></a>
+					      	<a href=""></a>
+					      	<a href=""></a>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			     <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			     <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			     <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			     <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			     <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			    <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			    <div class="layui-tab-item">
+					<table class="layui-table">
+					  <colgroup>
+					    <col width="80">
+					    <col>
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th style="text-align: center;">省</th>
+					      <th style="text-align: center;">城市</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					    <tr>
+					      <td style="text-align: center;">贤心</td>
+					      <td style="font-size: 80%"><a href=""></a></td>
+					    </tr>
+					  </tbody>
+					</table>
+			    </div>
+			  </div>
+			</div>      
+		</div>
+	</div>
+	<input type="hidden" id="hidden_username" value="{$data[username]}">
+	<header style="background-color: #1c909a;width: 99.5vw;z-index: 10;">
+		<div class="inner" style="width: 1020px;margin: 0 auto;height: 60px;display: flex;justify-content:space-between;">
+			<div class="logo" >
+				<a href="http://localhost/dear/home" style="display: flex;">
+					<img src="__PUBLIC__/images/logo.svg" alt="" />
+					<p style="color:#fff;margin-left: 4px;margin-top: 30px;font-size: 80%;padding: 0;">宠爱一生</p>
+				</a>
+			</div>
+			<div class="nav">
+				<ul style="display: flex;margin-top: 20px;">
+					<li><a href="http://localhost/dear/home/find" style="color:#fff;font-size: 110%;">寻宝启示</a></li>
+					<li style="margin-left: 30px;"><a href="http://localhost/dear/home/encounter" style="color:#fff;font-size: 110%;">遇到宝宝</a></li>
+					<li style="margin-left: 30px;"><a href="http://localhost/dear/Home/Adopt" style="color:#fff;font-size: 110%;">领养宝宝</a></li>
+					<li style="margin-left: 30px;"><a href="http://localhost/dear/home/experience" style="color:#fff;font-size: 110%;">宝宝经验</a></li>
+					<li style="margin-left: 30px;"><a href="http://localhost/dear/home/memory" style="color:#fff;font-size: 110%;">美好回忆</a></li>
+					<li style="margin-left: 60px;font-size: 80%;margin-top: 6px;color:#eee;" id="login_user">
+						
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="main">
+		<div class="inner" style="width: 1020px;margin: 0 auto;">
+			<div class="banner" style="margin-top: 20px;">
+				<div class="swiper-container">
+        			<div class="swiper-wrapper">
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 1</div>
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 2</div>
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 3</div>
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 4</div>
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 5</div>
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 6</div>
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 7</div>
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 8</div>
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 9</div>
+            			<div class="swiper-slide" style="height: 200px;background-color: blue;">Slide 10</div>
+        			</div>
+    			</div>
+			</div>
+			<div style="border: 1px solid #eee;-moz-box-shadow:2px 2px 5px #333333; -webkit-box-shadow:2px 2px 5px #333333; box-shadow:2px 2px 5px #333333;margin-top: 40px;"></div>
+			<div style="margin-top: 20px;margin-left: 20px;" class="switch">
+				<span style="color: red;">秦皇岛</span><a href="">[切换城市]</a>
+			</div>
+				
+			<ul style="display: flex;width: 1020px;margin: 0 auto;flex-wrap:wrap;">
+				<volist name="info" id="vo">
+					<li style="margin-left: 46px;">
+						<a href="http://localhost/dear/home/find/details/id/{$vo.id}">
+							<div class="single-member effect-2">
+								<div class="member-image">
+									<img src="__PUBLIC__/images/member_270x210.jpg" alt="Member">
+								</div>
+								<div class="member-info">
+									<h3>{$vo.title}</h3>
+									<h5>{$vo.title}</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<div class="social-touch">
+										<a class="fb-touch" href="#"></a>
+										<a class="tweet-touch" href="#"></a>
+										<a class="linkedin-touch" href="#"></a>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+				</volist>
+			</ul>
+			
+		</div>
+	</div>
+	<script src="__PUBLIC__/js/swiper.min.js"></script>
+	<script src="__PUBLIC__/js/jquery.min.js"></script>
+	<script src="__PUBLIC__/js/layui/layui.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+   
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 20,
+        freeMode: true,
+        loop:'true',
+        autoplay:'1000',
+    });
+    </script>
+    <script>
+		//注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+		layui.use('element', function(){
+		  var element = layui.element();
+		  
+		  //…
+		});
+	</script>
+    <script>
+		var username = $('#hidden_username').val();
+		if(username){
+			$('#login_user').append("<a href='http://localhost/dear/admin' style='margin-right:2px;color:#eee;'>"+username+"</a>|<a href='#' style='margin-left: 2px;color:#eee;' id='logout'>登出</a>")
+		}else{
+			$('#login_user').append("<a href='http://localhost/dear/home/login' style='margin-right:2px;color:#eee;'>登录</a>|<a href='' style='margin-left: 2px;color:#eee;'>注册</a>")
+		}
+	</script>
+	<script>
+		$("#logout").click(function(e){
+	        console.log('hello');
+	        e.preventDefault();
+	        $.ajax({
+	          type: 'POST',
+	          url: 'http://localhost/dear/home/logout',
+	          cache:false,  
+	          dataType:'json',
+	          success:function(success){  
+	              console.log(success)
+	              $(location).attr('href', 'http://localhost/dear/Home');
+	          },
+	          error: function(error){
+	              console.log(error)
+	          } 
+	        })
+	      })
+	</script>
+	<script>
+		console.log($('.city'))
+		$('.switch').find('a').click(function(e){
+			e.preventDefault();
+			$('.region').show()
+		})
+
+		$('.city').click(function(e){
+			e.preventDefault();
+			$('.switch').find('span').text($(this).text())
+			$('.region').hide()	
+		})
+		$('.back').click(function(e){
+			e.preventDefault();
+			$('.region').hide()
+		})
+	</script>
+</body>
+</html>

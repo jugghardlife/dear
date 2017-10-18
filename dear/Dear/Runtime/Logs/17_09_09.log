@@ -1,0 +1,37 @@
+[ 2017-09-09T13:21:18+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T13:21:30+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.004000s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-09 13:21:30' WHERE ( `id` = 1 ) [ RunTime:0.004000s ]
+
+[ 2017-09-09T13:49:56+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-09 13:49:56' WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+
+[ 2017-09-09T14:18:30+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE dear_user [ RunTime:0.000000s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-09 14:18:30' WHERE ( `id` = 1 ) [ RunTime:0.015600s ]
+
+[ 2017-09-09T14:18:30+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

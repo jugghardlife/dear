@@ -1,0 +1,14 @@
+[ 2017-09-05T10:15:44+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: DESCRIBE dear_user [ RunTime:0.001500s ]
+SQL: SELECT * FROM `dear_user` WHERE ( `username` = 'jugg' ) AND ( `password` = '123123' ) LIMIT 1   [ RunTime:0.001500s ]
+NOTIC: [8] Undefined variable: province D:\phpstudy\WWW\dear\Dear\Home\Controller\LoginController.class.php 第 38 行.
+SQL: UPDATE `dear_user` SET `date`='2017-09-05 10:15:44' WHERE ( `id` = 1 ) [ RunTime:0.005500s ]
+
+[ 2017-09-05T10:15:46+08:00 ] ::1 /dear/home/login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
